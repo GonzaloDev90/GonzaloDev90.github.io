@@ -1,0 +1,121 @@
+.menu {
+  display: inline-flex;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom, #16589a, #8a9cb1);
+  margin: 0px 20px;
+  transition: background-color 0.2s ease;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  display: inline-block;
+
+  
+}
+
+li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  background-image: linear-gradient(to bottom, #1b4f8c, #2362a1);
+  color: #ffffff;
+}
+
+body {
+  background-color: #212121;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+  border-color: #ffffff;
+  border-radius: 20px;
+  border-style: double;
+  border-width: 3px;
+}
+
+
+h3 {
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+textarea{
+
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  width: 400px;
+  height: 100px;
+}
+
+.Espacio{
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.banner-videoteca {
+background-image: url('images/banners/Videoteca.png');
+background-size: cover;
+background-position: center;
+text-align: center;
+margin: auto;
+margin-bottom: 20px;
+height: 45px;
+width: 800px;
+border-radius: 20px;
+border-style: solid;
+display: flex;
+}
+
+video {
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  background-color: #313030;
+  margin-bottom: 100px;
+}
+
+::cue{
+  color: rgb(255, 238, 2);
+  font: 1.2em sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+
+footer{
+  background-image: linear-gradient(to bottom, #1b4f8c, #2362a1);
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
