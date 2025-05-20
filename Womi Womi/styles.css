@@ -1,0 +1,144 @@
+*{
+  color: white;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Arial', sans-serif;
+  width: 74.8%;
+  margin: auto;
+}
+
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30x;
+}
+
+.nav{
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a{
+  padding: 10px;
+}
+
+nav a:hover{
+  background-color: rgb(200, 168, 7);
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s;
+  transform: scale(1.15);
+}
+
+.h1 {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.description {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  text-shadow: 3px 3px 2px rgba(220, 4, 4, 0.5);
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.contenedor-imagenes{
+  position: relative;
+  display: inline-block;
+  margin: 0 30px 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-imagenes:hover{
+  transition: 1s;
+  transform: scale(1.05);
+}
+
+.contenedor-imagenes:hover .contenedor-texto {
+  opacity: 1;
+}
+
+.contenedor-texto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  box-sizing: border-box;
+}
+
+section{
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contenedor1{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(169, 22, 237);
+  padding: 1px;
+}
+
+.contenedor2{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(255, 247, 27);
+  padding: 1px;
+}
+
+.contenedor3{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(7, 201, 33);
+  padding: 1px;
+}
+
+
+footer{
+  background-color: rgba(37, 36, 36, 0.133);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+footer img{
+  margin: auto;
+}
+
+footer img:hover{
+  transform: scale(1.5);
+  transition: transform 0.3s;
+}
+
+
+

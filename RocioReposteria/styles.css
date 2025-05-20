@@ -1,0 +1,33 @@
+*{
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: pink;
+}
+
+.logo{
+  width: 200px;
+  border-radius: 50% 50% 50% 50%; 
+  box-shadow: 0px 0px 50px 10px rgba(138, 69, 138, 0.5);
+  margin: 30px auto;
+  display: flex;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+footer {
+  text-align: center;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}

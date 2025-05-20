@@ -1,0 +1,152 @@
+*{
+  color: white;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: rgb(199, 11, 11);
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px red;
+  text-shadow: 3px 3px black;
+  font-size: 20px;
+}
+
+.contenedor-logo-menu{
+  background-image: linear-gradient(to bottom, #6263644c, #ffffff0a);
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+nav{
+  align-items: center;
+  display: flex;
+}
+
+.logo img{
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+
+.logo:hover img{
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.menu li:hover{
+  background-color: #6263644c;
+  border-radius: 10%;
+  transition: background-image 0.5s;
+}
+
+.titulo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jugadores{
+  list-style: none;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.contenedor-imagenes-equipo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-imagenes-equipo img{
+  width: 400px;
+  height: 400px;
+  border-image: 100% solid white;
+  border-radius: 1%;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.975);
+  display: inline-block;
+  text-align: center;
+}
+
+.contenedor-imagenes-equipo img:hover{
+  position: relative;
+  transition: transform 1s;
+  transform: scale(1.5);
+}
+
+.contenedor-videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-videos video{
+  width: 400px;
+  height: 400px;
+  border-image: 100% solid white;
+  border-radius: 1%;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.975);
+  display: inline-block;
+  text-align: center;
+  border: #ffffff;
+  border-radius: 10%;
+}
+
+.titulo-historia{
+  background-color: #6206064c;
+  margin: auto;
+  width: 40%;
+}
+
+.historia{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+    footer {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .redes{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .redes li:hover{
+    transition: transform 1s;
+    transform: scale(1.5);
+    }
+
+    .contacto{
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
