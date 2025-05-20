@@ -1,11 +1,18 @@
 *{
   flex-wrap: wrap;
   box-sizing: border-box;
+  text-shadow: 1px 1px 2px rgb(105, 8, 105);
 }
 
 body{
   background-color: pink;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
+
 
 .logo{
   width: 200px;
