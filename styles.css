@@ -58,6 +58,10 @@
       transition: transform 0.3s;
     }
 
+    .text-contact{
+      text-align: center;
+    }
+
     nav a {
       color: white;
       text-decoration: none;
