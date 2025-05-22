@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Funnel+Display:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Presion Alta FC</title>
 </head>
 
@@ -37,8 +40,12 @@
   <img src="images/Equipo4.jpg" alt="foto de equipo 4">
   </div>
   <div class="contenedor-videos">
+    <video controls>
+      <track kind="subtitles" src="subtitulos.vtt" srclang="es" label="Español" default>
+      <source src="videos/video.mp4" type="video/mp4" width="250" height="400">
+      </track> 
+    </video>
     <video controls src="videos/video1.mp4" width="400" height="400">Video 1</video>
-    <video controls src="videos/video2.mp4" width="400" height="400">Video 2</video>
   </div>
   </main>
 
