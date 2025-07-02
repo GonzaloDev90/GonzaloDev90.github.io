@@ -2,8 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #a8a7a76d;
 }
+
 header {
   background-color: #333;
   color: white;
@@ -12,23 +13,27 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 #productos-container, #carrito-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
+
 .card {
   background-color: white;
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
 .card img {
   max-width: 100%;
   height: 200px;
   object-fit: cover;
 }
+
 button {
   background-color: #c20c0c;
   color: white;
@@ -38,6 +43,7 @@ button {
   border-radius: 4px;
   margin-top: 1rem;
 }
+
 button:hover {
   background-color: #a71616;
 }
@@ -54,4 +60,8 @@ a{
     text-decoration: none;
     color: #ce0a0a;
     font-size: 20px;
+    border-style: groove;
+    padding: 15px;
+    background-color: #8c8a8a;
+    font-weight: 900;
 }

@@ -39,4 +39,5 @@ finalizarBtn.addEventListener('click', () => {
   localStorage.removeItem('carrito');
   carrito = [];
   renderCarrito();
+  window.location.href = "./index.html";
 });
