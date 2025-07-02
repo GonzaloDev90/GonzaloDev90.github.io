@@ -1,0 +1,9 @@
+Drive Carpeta Publica con todos los archivos de la web
+Proyecto Integrador - Publica por link + Modo Editor
+https://drive.google.com/drive/folders/1JZZpgbSUT6VuOkdqoZQ5qUq3V6s5X4kA?usp=sharing
+
+GitHub Link
+https://gonzalodev90.github.io/
+
+Netlify
+https://gonzalodev90.netlify.app/
